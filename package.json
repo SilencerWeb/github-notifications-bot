@@ -1,0 +1,48 @@
+{
+  "name": "github-notifications-bot",
+  "version": "0.0.1",
+  "description": "Telegram bot for receiving notification from GitHub",
+  "author": "Maksim Gorodov <silencer.web@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "develop": "nodemon"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "markdown-it": "^10.0.0",
+    "merge-deep": "^3.0.2",
+    "mongoose": "^5.9.5",
+    "telegraf": "^3.36.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cron": "^1.7.2",
+    "@types/express": "^4.17.3",
+    "@types/mongoose": "^5.7.6",
+    "@types/node": "^13.9.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilencerWeb/github-notifications-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "github",
+    "notifications",
+    "github-notifications",
+    "node",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/SilencerWeb/github-notifications-bot/issues"
+  },
+  "homepage": "https://github.com/SilencerWeb/github-notifications-bot#readme"
+}
